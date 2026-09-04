@@ -69,11 +69,15 @@ fun LoginScreen(){
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Inicia Sesión",
+            Text("Welcome back",
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+            Text("Please enter your credentials",
                 fontSize = 15.sp,
-                fontWeight = FontWeight.Bold
-
-                )
+                color = Color.Black
+            )
             Spacer(modifier = Modifier.height(10.dp))
                 TextFormField(
                     hint = "example@example.com",
