@@ -40,7 +40,7 @@ class LoginViewModel : ViewModel() {
         login()
     }
 
-    private  fun login(){
+    private fun login(){
 
     }
 
