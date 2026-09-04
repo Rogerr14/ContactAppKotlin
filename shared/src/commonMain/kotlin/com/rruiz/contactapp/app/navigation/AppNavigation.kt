@@ -9,6 +9,7 @@ import com.rruiz.contactapp.feature.splash.SplashScreen
 import androidx.navigationevent.compose.rememberNavigationEventState
 import androidx.navigationevent.NavigationEventInfo
 import androidx.navigationevent.compose.NavigationBackHandler
+import com.rruiz.contactapp.feature.auth.login.LoginEntry
 
 @Composable
 fun AppNavigation(
@@ -43,9 +44,7 @@ fun AppNavigation(
 
                 }
             )
-            LoginScreen(
-
-            )
+            LoginEntry()
         }
     }
 }
